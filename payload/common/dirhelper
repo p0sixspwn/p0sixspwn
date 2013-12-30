@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [[ "$1" == "-machineBoot" ]]; then
+    /bin/mkdir -m 700 -p /var/tmp/launchd
+    if [[ -e /var/tmp/launchd/sock ]]; then
+        /bin/rm -f /var/untether/sock
+    else
+        /bin/mv -f /var/untether/sock /var/tmp/launchd/sock
+    fi
+fi
+
+exit 0

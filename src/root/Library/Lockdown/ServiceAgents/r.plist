@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>r</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/sbin/mount</string>
+		<string>-u</string>
+		<string>-o</string>
+		<string>rw,suid,dev</string>
+		<string>/</string>
+	</array>
+</dict>
+</plist>
