@@ -63,6 +63,9 @@ typedef struct _compatibility {
 } compatibility_t;
 
 compatibility_t compatible_devices[] = {
+    {"N81AP", "10B500"},
+    {"N88AP", "10B500"},
+
     {"N81AP", "10B400"},
 
     {"N41AP", "10B350"},
