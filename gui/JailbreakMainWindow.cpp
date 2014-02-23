@@ -18,7 +18,7 @@ JailbreakMainWindow::JailbreakMainWindow(void)
 #define FNTSIZE 9
 #endif
 	wxFont fnt(FNTSIZE, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL);
-	wxStaticText* lbTop = new wxStaticText(panel, wxID_ANY, wxT("Welcome to p0sixspwn, an iOS 6.1.3-6.1.5 userland jailbreaking\nprogram. Make a backup of your device before proceeding.\n"), wxDefaultPosition, wxDefaultSize, wxST_NO_AUTORESIZE | wxALIGN_LEFT);
+	wxStaticText* lbTop = new wxStaticText(panel, wxID_ANY, wxT("Welcome to p0sixspwn, an iOS 6.1.3-6.1.6 userland jailbreaking\nprogram. Make a backup of your device before proceeding.\n"), wxDefaultPosition, wxDefaultSize, wxST_NO_AUTORESIZE | wxALIGN_LEFT);
 	lbTop->SetFont(fnt);
 	lbTop->Wrap(WND_WIDTH-20);
 
